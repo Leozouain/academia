@@ -1,0 +1,34 @@
+.btn{
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover{
+    background-color: rgb(218, 215, 215);
+}
+
+.mask:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); /* Change the alpha value to adjust the transparency */
+    z-index: -1;
+  }
+  
+/* Estilos para telas médias */
+@media only screen and (max-width: 1017px) {
+    .test img {
+      width: 100%;
+    }
+  }
+  
+  /* Estilos para telas pequenas */
+  @media only screen and (max-width: 480px) {
+    .elemento {
+      font-size: 14px;
+    }
+  }
